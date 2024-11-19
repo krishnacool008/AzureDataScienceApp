@@ -1,19 +1,19 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
+/FrontEnd/node_modules
+/FrontEnd/.pnp
 .pnp.js
 
 # Angular specific
-/angular/cache
-/angular/coverage
-/dist
-/tmp
+/FrontEnd/.angular/cache
+/FrontEnd/.angular/coverage
+/FrontEnd/dist
+/FrontEnd/tmp
 
 # IDEs and editors
-/.idea
-/.vscode
+/ResourceServer/.idea
+/FrontEnd/.vscode
 *.suo
 *.ntvs*
 *.njsproj
@@ -31,7 +31,7 @@ yarn-error.log*
 Thumbs.db
 
 # Spring Boot specific
-/target
+/ResourceServer/target
 /*.log
 /*.tmp
 /*.bak
@@ -40,9 +40,9 @@ Thumbs.db
 /build
 
 # Maven specific
-/pom.xml.tag
-/pom.xml.releaseBackup
-/pom.xml.versionsBackup
-/logs
-/target
-/release.properties
+/ResourceServer/pom.xml.tag
+/ResourceServer/pom.xml.releaseBackup
+/ResourceServer/pom.xml.versionsBackup
+/ResourceServer/logs
+/ResourceServer/target
+/ResourceServer/release.properties
